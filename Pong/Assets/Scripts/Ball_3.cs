@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour {
+public class Ball_3 : MonoBehaviour {
 
     [SerializeField]
     float speed;
@@ -10,8 +10,9 @@ public class Ball : MonoBehaviour {
 
     Vector2 direction;
 
-	void Start () 
+    IEnumerator Start()
     {
+        yield return new WaitForSeconds(28);
         direction = Vector2.one.normalized;
         radius = transform.localScale.x / 2;
 	}

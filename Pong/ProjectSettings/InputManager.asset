@@ -9,9 +9,9 @@ InputManager:
     m_Name: PaddleLeft
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: s
-    positiveButton: w
-    altNegativeButton: a
+    negativeButton: z
+    positiveButton: a
+    altNegativeButton: x
     altPositiveButton: d
     gravity: 3
     dead: 0.001
@@ -25,8 +25,8 @@ InputManager:
     m_Name: PaddleRight
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: down
-    positiveButton: up
+    negativeButton: /
+    positiveButton: ''''
     altNegativeButton: 
     altPositiveButton: 
     gravity: 3

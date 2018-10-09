@@ -13,7 +13,7 @@ public class Paddle : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         height = transform.localScale.y;
-        speed = 5f;
+        speed = 7f;
 	}
 
     public void Init(bool isRightPaddle)
