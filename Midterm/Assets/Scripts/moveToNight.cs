@@ -3,21 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class howToPlayReturn : MonoBehaviour 
+public class moveToNight : MonoBehaviour
 {
-
     [SerializeField] private string loadlevel;
 
-	void Start () 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-		
-	}
-	
-	void Update () 
-    {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(loadlevel);
         }
     }
+
 }

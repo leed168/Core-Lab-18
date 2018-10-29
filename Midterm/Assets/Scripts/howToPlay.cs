@@ -15,7 +15,7 @@ public class howToPlay : MonoBehaviour
 	
 	void Update () 
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             SceneManager.LoadScene(loadlevel);
         }
