@@ -625,7 +625,7 @@ Prefab:
     - target: {fileID: 50701757744034660, guid: db2ccb32aba1243d2b8da6b87c2df475,
         type: 2}
       propertyPath: m_AngularDrag
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db2ccb32aba1243d2b8da6b87c2df475, type: 2}
