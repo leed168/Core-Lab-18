@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/skirmish1_3cutscene.unity
     guid: 63183f8aaadb64ec086265d23ebd6caf
+  - enabled: 1
+    path: Assets/scenes/introScene1.unity
+    guid: 9aa2bb49ccaf943ed8e5d93b1ac8587f
+  - enabled: 1
+    path: Assets/scenes/scene1.unity
+    guid: 7221a571cfb924aa4a13c8b168479a3b
   m_configObjects: {}

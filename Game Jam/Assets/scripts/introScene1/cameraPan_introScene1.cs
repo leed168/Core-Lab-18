@@ -33,7 +33,7 @@ public class cameraPan_introScene1 : MonoBehaviour
 
     private void GetInput()
     {
-        direction = Vector2.up;
+        direction = Vector2.down;
     }
 
 }

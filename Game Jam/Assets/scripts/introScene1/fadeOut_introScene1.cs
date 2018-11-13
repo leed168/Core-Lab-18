@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class cutSceneFadeOut_introScene1 : MonoBehaviour
+public class fadeOut_introScene1 : MonoBehaviour
 {
     public Animator animator;
 
@@ -20,7 +20,7 @@ public class cutSceneFadeOut_introScene1 : MonoBehaviour
     public void fadeToLevel(int levelIndex)
     {
         animator.SetTrigger("fadeOut");
-        StartCoroutine(LoadAfterDelay("skirmish1_1"));
+        StartCoroutine(LoadAfterDelay("scene1"));
     }
 
 
