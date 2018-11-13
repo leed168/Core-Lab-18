@@ -14,4 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/skirmish1_1cutscene.unity
     guid: fb3de608725e946c0b59cd3521248860
+  - enabled: 1
+    path: Assets/scenes/demoScene1.unity
+    guid: c2eb8e33eed0649a8b6df461c2d75a65
+  - enabled: 1
+    path: Assets/scenes/demoScene1Cutscene.unity
+    guid: 0061a2be0fd6a491aa713eabc6edc2b6
+  - enabled: 1
+    path: Assets/scenes/skirmish1_2.unity
+    guid: aff9a50c0439f4bf78eb8ad0161bdac2
+  - enabled: 1
+    path: Assets/scenes/skirmish1_2cutscene.unity
+    guid: 47c06d3f2b1a9461aaeab76d971d8cbd
+  - enabled: 1
+    path: Assets/scenes/skirmish1_3.unity
+    guid: c3c832d35b31e48eba10c20be471d21f
+  - enabled: 1
+    path: Assets/scenes/skirmish1_3cutscene.unity
+    guid: 63183f8aaadb64ec086265d23ebd6caf
   m_configObjects: {}
