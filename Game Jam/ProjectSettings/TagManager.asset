@@ -15,6 +15,10 @@ TagManager:
   - projectile3
   - projectile4
   - sceneTrigger
+  - trigger
+  - cameraTrigger
+  - dialogueTrigger
+  - dialogueBGTrigger
   layers:
   - Default
   - TransparentFX

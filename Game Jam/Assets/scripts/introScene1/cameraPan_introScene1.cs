@@ -5,8 +5,7 @@ using UnityEngine;
 public class cameraPan_introScene1 : MonoBehaviour
 {
 
-    [SerializeField]
-    private float speed;
+    public float speed;
 
     private Vector2 direction;
 
@@ -23,6 +22,14 @@ public class cameraPan_introScene1 : MonoBehaviour
         if (moveCamera)
         {
             Move();
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "cameraTrigger")
+        {
+            speed = 0;
         }
     }
 
