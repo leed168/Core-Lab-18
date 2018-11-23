@@ -3,11 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class fadeOut2 : MonoBehaviour
+public class fadeOut_scene2 : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D col)
+    //void OnTriggerEnter2D(Collider2D col)
+    //{
+    //    if (col.gameObject.tag == "sceneTrigger")
+    //    {
+    //        fadeToLevel(1);
+    //    }
+    //}
+
+    void Update()
     {
-        if (col.gameObject.tag == "sceneTrigger")
+        if (Input.GetKey(KeyCode.X))
         {
             fadeToLevel(1);
         }
@@ -15,7 +23,7 @@ public class fadeOut2 : MonoBehaviour
 
     public void fadeToLevel(int levelIndex)
     {
-        StartCoroutine(LoadAfterDelay("scene1_1"));
+        StartCoroutine(LoadAfterDelay("scene1_2"));
     }
 
 

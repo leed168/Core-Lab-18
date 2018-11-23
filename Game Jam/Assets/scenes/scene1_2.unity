@@ -1734,7 +1734,6 @@ GameObject:
   - component: {fileID: 1581460854}
   - component: {fileID: 1581460853}
   - component: {fileID: 1581460852}
-  - component: {fileID: 1581460851}
   m_Layer: 0
   m_Name: dialogueBackground
   m_TagString: Untagged
@@ -1756,19 +1755,6 @@ Transform:
   m_Father: {fileID: 1687399044}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1581460851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1581460849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9a997d608948491ca345815d038f5d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1581460855}
-  loadlevel: 
 --- !u!50 &1581460852
 Rigidbody2D:
   serializedVersion: 4
@@ -1858,7 +1844,7 @@ GameObject:
   - component: {fileID: 1687399048}
   - component: {fileID: 1687399047}
   - component: {fileID: 1687399050}
-  - component: {fileID: 1687399049}
+  - component: {fileID: 1687399046}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -1947,6 +1933,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1687399046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687399042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7145bab757b9b478cb58e0bee2bf9656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &1687399047
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1992,17 +1989,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1687399049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1687399042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4eb7c8f3b9941483096ca56f6abab7a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1687399050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2754,8 +2740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2045011500}
   sentences:
-  - This attire...
-  - The person must have been a guard member from our clan.
+  - This attire... [Z]
+  - This person must have been a guard member from our clan, like I am. [Z]
   - '[X]'
   typingSpeed: 0.025
 --- !u!1 &2087056679

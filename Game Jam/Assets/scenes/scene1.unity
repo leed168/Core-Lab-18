@@ -1838,8 +1838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1199354848}
   sentences:
-  - Is that a body?
-  - I should get a better look.
+  - I see something. [Z]
   - '[X]'
   typingSpeed: 0.025
 --- !u!4 &1490263356

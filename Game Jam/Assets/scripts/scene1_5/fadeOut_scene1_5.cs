@@ -3,25 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class fadeOut2 : MonoBehaviour
+public class fadeOut_scene1_5 : MonoBehaviour 
 {
+    public Animator animator;
+
+    public string loadlevel;
+
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "sceneTrigger")
+        if (col.gameObject.tag == "Player")
         {
             fadeToLevel(1);
         }
     }
 
-    public void fadeToLevel(int levelIndex)
+        public void fadeToLevel (int levelIndex)
     {
-        StartCoroutine(LoadAfterDelay("scene1_1"));
+        animator.SetTrigger("fadeOut");
+        StartCoroutine(LoadAfterDelay("scene2"));
     }
 
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(0);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(levelName);
     }
 }

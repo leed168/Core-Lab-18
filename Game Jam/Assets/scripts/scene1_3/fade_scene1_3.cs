@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class fadeOut_scene2 : MonoBehaviour
+public class fade_scene1_3 : MonoBehaviour
 {
     //void OnTriggerEnter2D(Collider2D col)
     //{
@@ -23,7 +23,7 @@ public class fadeOut_scene2 : MonoBehaviour
 
     public void fadeToLevel(int levelIndex)
     {
-        StartCoroutine(LoadAfterDelay("scene1_3"));
+        StartCoroutine(LoadAfterDelay("scene1_4"));
     }
 
 
