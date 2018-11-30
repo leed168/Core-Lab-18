@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class cutscenePlayer_scene1: MonoBehaviour
 {
-    float speed = 2f;
+    float speed = 1.5f;
 
     private Vector2 direction;
 
