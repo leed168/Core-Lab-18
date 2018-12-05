@@ -2,12 +2,12 @@ fileFormatVersion: 2
 guid: 1ecaedca2444145889e61de7270383f0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 1
-    21300002: 2
-    21300004: 3
-    21300006: 4
-    21300008: 5
-    21300010: 6
+    21300000: daphne_device
+    21300002: daphne_device(4)_1
+    21300004: daphne_device(4)_2
+    21300006: daphne_device(4)_3
+    21300008: daphne_device(4)_4
+    21300010: daphne_device(4)_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1
+      name: daphne_device
       rect:
         serializedVersion: 2
         x: 0
@@ -115,13 +115,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd795169ffb7d45b88d6fd50504772ee
+      spriteID: cdbecd89ace494d14a50e7729f74c228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: daphne_device(4)_1
       rect:
         serializedVersion: 2
         x: 2
@@ -135,13 +135,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52b26802c9ee4c4398036d25de20af7
+      spriteID: c76a34e185f0e4f6e9255a092f1734bb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3
+      name: daphne_device(4)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -155,13 +155,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 908dd28e1402b4fa3b8d8d43bea287f0
+      spriteID: 3268f2e4746ed477c9f6ef05d6c2e035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4
+      name: daphne_device(4)_3
       rect:
         serializedVersion: 2
         x: 2
@@ -175,13 +175,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5346586c99e8843e28d34fe107e5409c
+      spriteID: 2d3cc72ff3cae41dfb9f3fe8732f2dae
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 5
+      name: daphne_device(4)_4
       rect:
         serializedVersion: 2
         x: 0
@@ -195,13 +195,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa257368129a64ff8875c4ca1a58b3e3
+      spriteID: 104c88e028cc14b2eaf41f6085e102c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6
+      name: daphne_device(4)_5
       rect:
         serializedVersion: 2
         x: 2
@@ -215,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1469af3b26c4742eca0d5908c63d2826
+      spriteID: 9e33590f5987241cb8ab59b0582303ee
       vertices: []
       indices: 
       edges: []
@@ -223,7 +223,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a2a762ac897f24b33b65c9d202458680
+    spriteID: f88005a1beadc4ea9bbd933bed7eb9e2
     vertices: []
     indices: 
     edges: []

@@ -11,6 +11,7 @@ public class dialogueManager_scene1 : MonoBehaviour
 
     public Animator animator;
     public Animator arrowAnimator;
+    public Animator fallenGuardAnimator;
 
     private Queue<string> sentences;
 
@@ -72,6 +73,7 @@ public class dialogueManager_scene1 : MonoBehaviour
     {
         animator.SetBool("isOpen", false);
         arrowAnimator.SetBool("flare", true);
+        fallenGuardAnimator.SetBool("shine", true);
         Debug.Log("End of conversation.");
     }
 

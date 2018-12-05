@@ -736,6 +736,7 @@ MonoBehaviour:
   typeSpeed: 0.04
   animator: {fileID: 669683842}
   arrowAnimator: {fileID: 544443184}
+  fallenGuardAnimator: {fileID: 1780284003}
 --- !u!95 &669683842
 Animator:
   serializedVersion: 3
@@ -2422,6 +2423,7 @@ GameObject:
   - component: {fileID: 1780284001}
   - component: {fileID: 1780284000}
   - component: {fileID: 1780284002}
+  - component: {fileID: 1780284003}
   m_Layer: 0
   m_Name: fallenGuard
   m_TagString: sceneTrigger
@@ -2513,6 +2515,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25997853, y: 0.09038374}
   m_EdgeRadius: 0
+--- !u!95 &1780284003
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1780283999}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3acbc91d8e68d4acdb649859a0dcb59d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1915923394
 GameObject:
   m_ObjectHideFlags: 0

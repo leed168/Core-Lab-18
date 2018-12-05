@@ -8,15 +8,19 @@ public class guardControl: MonoBehaviour
     SpriteRenderer sr;
     Color old;
 
-    public AudioSource fx0;
-    public AudioSource fx1;
-    public AudioSource fx2;
-    public AudioSource fx3;
-    public AudioSource fx4;
-    public AudioSource fx5;
-    public AudioSource fx6;
-    public AudioSource fx7;
-    public AudioSource fx8;
+    private Vector2 direction;
+
+    private Animator animator;
+
+    //public AudioSource fx0;
+    //public AudioSource fx1;
+    //public AudioSource fx2;
+    //public AudioSource fx3;
+    //public AudioSource fx4;
+    //public AudioSource fx5;
+    //public AudioSource fx6;
+    //public AudioSource fx7;
+    //public AudioSource fx8;
 
     void Awake()
     {
@@ -27,12 +31,12 @@ public class guardControl: MonoBehaviour
     {
         old = sr.color;
 
-        fx0 = GetComponent<AudioSource>();
+        //fx0 = GetComponent<AudioSource>();
 	}
-	
+
 	void Update () 
     {
-		if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             transform.position = new Vector2(-7,-2);
         }
@@ -72,60 +76,66 @@ public class guardControl: MonoBehaviour
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx0.Play();
+            //fx0.Play();
         }
         if (col.gameObject.tag == "projectile1")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx1.Play();
+            //fx1.Play();
         }
         if (col.gameObject.tag == "projectile2")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx2.Play();
+            //fx2.Play();
         }
         if (col.gameObject.tag == "projectile3")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx3.Play();
+            //fx3.Play();
         }
         if (col.gameObject.tag == "projectile4")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx4.Play();
+            //fx4.Play();
         }
         if (col.gameObject.tag == "projectile5")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx5.Play();
+            //fx5.Play();
         }
         if (col.gameObject.tag == "projectile6")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx6.Play();
+            //fx6.Play();
         }
         if (col.gameObject.tag == "projectile7")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx7.Play();
+            //fx7.Play();
         }
         if (col.gameObject.tag == "projectile8")
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            fx8.Play();
+            //fx8.Play();
         }
         if (col.gameObject.tag == "lastProjectile")
         {
             SceneManager.LoadScene("skirmish1_1cutscene");
         }
+    }
+
+    public void AnimateMovement(Vector2 direction)
+    {
+        animator.SetFloat("x", direction.x);
+        animator.SetFloat("y", direction.y);
     }
 
     IEnumerator Pressed()
