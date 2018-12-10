@@ -24,7 +24,7 @@ public class projectile : MonoBehaviour
 
     IEnumerator waiter()
     {
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(1);
         rb.velocity = new Vector2(0, -speed);
     }
 }

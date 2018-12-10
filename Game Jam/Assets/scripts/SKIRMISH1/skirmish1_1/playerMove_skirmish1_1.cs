@@ -16,6 +16,9 @@ public class playerMove_skirmish1_1 : MonoBehaviour
     SpriteRenderer sr;
     Color old;
 
+    public Sprite block;
+    public Sprite normal;
+
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -90,8 +93,10 @@ public class playerMove_skirmish1_1 : MonoBehaviour
 
     IEnumerator Pressed()
     {
-        sr.color = new Color(255, 0, 0);
-        yield return new WaitForSeconds(0.1f);
-        sr.color = old;
+        //sr.color = new Color(0, 255, 0);
+        GetComponent<SpriteRenderer>().sprite = block;
+        yield return new WaitForSeconds(0.25f);
+        //sr.color = old;
+        GetComponent<SpriteRenderer>().sprite = normal;
     }
 }

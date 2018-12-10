@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class damageTrigger : MonoBehaviour 
 {
-    public Animator animator;
+    //public Animator animator;
 
     public string loadlevel;
     
-    public float health = 100;
+    public float health = 200;
 
     public Image healthBar;
 
@@ -27,51 +27,61 @@ public class damageTrigger : MonoBehaviour
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile1")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile2")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile3")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile4")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile5")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile6")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile7")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "projectile8")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
         if (col.gameObject.tag == "lastProjectile")
         {
             health -= 20;
             hitmarker.Play();
+            Destroy(col.gameObject);
         }
 
         if (health <= 0)
@@ -80,7 +90,7 @@ public class damageTrigger : MonoBehaviour
                 SceneManager.LoadScene("skirmish1_die");
             }
 
-        healthBar.fillAmount = health / 100f;
+        healthBar.fillAmount = health / 200;
 
     }
 

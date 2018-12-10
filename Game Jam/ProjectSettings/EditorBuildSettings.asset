@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SCENES/skirmish1_1.unity
+    path: Assets/SCENES/skirmish1/skirmish1_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/SCENES/skirmish1_die.unity
+    path: Assets/SCENES/skirmish1/skirmish1_die.unity
     guid: 2c178074f17984ec18c01ee07342de41
   - enabled: 1
-    path: Assets/SCENES/skirmish1_1cutscene.unity
+    path: Assets/SCENES/skirmish1/skirmish1_1cutscene.unity
     guid: fb3de608725e946c0b59cd3521248860
   - enabled: 1
     path: Assets/SCENES/_demoScene1.unity
@@ -21,16 +21,16 @@ EditorBuildSettings:
     path: Assets/SCENES/_demoScene1Cutscene.unity
     guid: 0061a2be0fd6a491aa713eabc6edc2b6
   - enabled: 1
-    path: Assets/SCENES/skirmish1_2.unity
+    path: Assets/SCENES/skirmish1/skirmish1_2.unity
     guid: aff9a50c0439f4bf78eb8ad0161bdac2
   - enabled: 1
-    path: Assets/SCENES/skirmish1_2cutscene.unity
+    path: Assets/SCENES/skirmish1/skirmish1_2cutscene.unity
     guid: 47c06d3f2b1a9461aaeab76d971d8cbd
   - enabled: 1
-    path: Assets/SCENES/skirmish1_3.unity
+    path: Assets/SCENES/skirmish1/skirmish1_3.unity
     guid: c3c832d35b31e48eba10c20be471d21f
   - enabled: 1
-    path: Assets/SCENES/skirmish1_3cutscene.unity
+    path: Assets/SCENES/skirmish1/skirmish1_3cutscene.unity
     guid: 63183f8aaadb64ec086265d23ebd6caf
   - enabled: 1
     path: Assets/SCENES/introScene1.unity
@@ -108,7 +108,7 @@ EditorBuildSettings:
     path: Assets/SCENES/scene3/scene3_3.unity
     guid: 9429beddb593e4c5c97a48e36adbcfb1
   - enabled: 1
-    path: Assets/__DELETED_GUID_Trash/9b6b83dbff00d4521978bcdc44c54f19
+    path: 
     guid: 9b6b83dbff00d4521978bcdc44c54f19
   - enabled: 1
     path: Assets/SCENES/scene3/scene3_4.unity
@@ -122,4 +122,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENES/scene3/scene3_6.unity
     guid: fd083a67ffa364872a660e600be8e228
+  - enabled: 1
+    path: Assets/SCENES/skirmish1/skirmish1_start.unity
+    guid: 0b4e6eb69a23746d79772ad2cb2cac47
   m_configObjects: {}
