@@ -29,7 +29,7 @@ public class sceneTrigger_scene2 : MonoBehaviour
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(0f);
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(levelName);
     }
 }

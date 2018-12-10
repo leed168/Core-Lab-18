@@ -708,7 +708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 944319576}
-  loadlevel: 
+  loadLevelName: 
 --- !u!58 &944319578
 CircleCollider2D:
   m_ObjectHideFlags: 0

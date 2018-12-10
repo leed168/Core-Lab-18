@@ -4091,8 +4091,9 @@ MonoBehaviour:
   dialogue:
     name: Verd
     sentences:
-    - A rescue team to Skuld?
-    - For whom?
+    - Skuld?
+    - . . . But chief, Skuld is our ruling clan!
+    - And for whom was the rescue for?
 --- !u!1 &2094724734
 GameObject:
   m_ObjectHideFlags: 0

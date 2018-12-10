@@ -4103,7 +4103,7 @@ MonoBehaviour:
   dialogue:
     name: Chief
     sentences:
-    - Yes. . .
+    - . . . Yes,
     - I do.
     - This person lead the rescue team to Skuld many years ago.
 --- !u!1 &2094724734

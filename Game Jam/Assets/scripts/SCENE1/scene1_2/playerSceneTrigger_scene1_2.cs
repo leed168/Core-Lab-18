@@ -21,7 +21,7 @@ public class playerSceneTrigger_scene1_2 : MonoBehaviour
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(0);
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(levelName);
     }
 }

@@ -14,11 +14,17 @@ public class projectile : MonoBehaviour
 
     void Start () 
     {
-        rb.velocity = new Vector2(0, -speed);
-	}
+        StartCoroutine(waiter());
+    }
 	
 	void Update () 
     {
 		
 	}
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(3.5f);
+        rb.velocity = new Vector2(0, -speed);
+    }
 }

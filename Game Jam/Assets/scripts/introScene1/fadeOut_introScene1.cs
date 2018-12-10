@@ -20,13 +20,13 @@ public class fadeOut_introScene1 : MonoBehaviour
     public void fadeToLevel(int levelIndex)
     {
         animator.SetTrigger("fadeOut");
-        StartCoroutine(LoadAfterDelay("scene1"));
+        StartCoroutine(LoadAfterDelay(loadlevel));
     }
 
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0);
         SceneManager.LoadScene(levelName);
     }
 }

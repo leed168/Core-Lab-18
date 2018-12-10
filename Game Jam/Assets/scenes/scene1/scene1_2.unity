@@ -1927,7 +1927,7 @@ MonoBehaviour:
     name: 
     sentences:
     - White hair . . .
-    - They're one of our people.
+    - He was one of our people.
 --- !u!61 &1429606469
 BoxCollider2D:
   m_ObjectHideFlags: 0
