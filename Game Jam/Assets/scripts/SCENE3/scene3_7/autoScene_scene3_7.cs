@@ -12,7 +12,7 @@ public class autoScene_scene3_7 : MonoBehaviour {
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(levelName);
     }
 

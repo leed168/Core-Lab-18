@@ -19,6 +19,7 @@ TagManager:
   - cameraTrigger
   - dialogueTrigger
   - dialogueBGTrigger
+  - urd_projectile
   layers:
   - Default
   - TransparentFX

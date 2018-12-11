@@ -13,11 +13,14 @@ public class playerMove_skirmish1_1 : MonoBehaviour
 
     private Animator animator;
 
+    bool block = false;
+    bool blockEnd = false;
+
     SpriteRenderer sr;
     Color old;
 
-    public Sprite block;
-    public Sprite normal;
+    //public Sprite block;
+    //public Sprite normal;
 
     void Awake()
     {
@@ -42,6 +45,7 @@ public class playerMove_skirmish1_1 : MonoBehaviour
     public void Move()
     {
         transform.Translate(direction * speed * Time.deltaTime);
+        AnimateMovement(direction);
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -94,9 +98,21 @@ public class playerMove_skirmish1_1 : MonoBehaviour
     IEnumerator Pressed()
     {
         //sr.color = new Color(0, 255, 0);
-        GetComponent<SpriteRenderer>().sprite = block;
-        yield return new WaitForSeconds(0.25f);
-        //sr.color = old;
-        GetComponent<SpriteRenderer>().sprite = normal;
+        //GetComponent<SpriteRenderer>().sprite = block;
+        animator.SetBool("block", true);
+        yield return new WaitForSeconds(0.15f);
+        animator.SetBool("block", false);
+
+        //animator.SetBool("blockEnd", true);
+        //yield return new WaitForSeconds(0.15f);
+        ////sr.color = old;
+        ////GetComponent<SpriteRenderer>().sprite = normal;
+        //animator.SetBool("blockEnd", false);
+    }
+
+    public void AnimateMovement(Vector2 direction)
+    {
+        animator.SetFloat("x", direction.x);
+        animator.SetFloat("y", direction.y);
     }
 }

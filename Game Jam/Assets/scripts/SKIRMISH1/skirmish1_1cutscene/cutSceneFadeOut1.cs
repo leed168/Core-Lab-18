@@ -20,7 +20,7 @@ public class cutSceneFadeOut1 : MonoBehaviour
         public void fadeToLevel (int levelIndex)
     {
         animator.SetTrigger("fadeOut");
-        StartCoroutine(LoadAfterDelay("skirmish1_2"));
+        //StartCoroutine(LoadAfterDelay("skirmish1_2"));
     }
 
 

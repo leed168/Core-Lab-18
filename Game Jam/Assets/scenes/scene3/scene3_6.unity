@@ -229,13 +229,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 148138981}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d5cf593dcb934308bdbca1dfee41a30, type: 3}
+  m_Script: {fileID: 11500000, guid: 350b6279779954eb7b28224eba53db4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
     name: Verd
     sentences:
-    - Men, stand behind me!
+    - Men, stand behind me and take aim!
+    - I'll block it's attacks!
 --- !u!50 &148138984
 Rigidbody2D:
   serializedVersion: 4
@@ -1045,7 +1046,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 669683840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5d4d75c012141b3839f6f9dc46a641, type: 3}
+  m_Script: {fileID: 11500000, guid: 57192f4daaa3642efa719519e586541c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 1528647858}

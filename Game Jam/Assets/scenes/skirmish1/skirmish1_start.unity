@@ -437,7 +437,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 8.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1544,7 +1544,6 @@ GameObject:
   - component: {fileID: 1715809952}
   - component: {fileID: 1715809951}
   - component: {fileID: 1715809950}
-  - component: {fileID: 1715809942}
   - component: {fileID: 1715809956}
   m_Layer: 0
   m_Name: player
@@ -1553,20 +1552,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1715809942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1715809941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e559c88043dd645c788167944e9620d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  block: {fileID: 0}
-  normal: {fileID: 0}
 --- !u!212 &1715809943
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1602,7 +1587,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300002, guid: 75236823807134f79bf118c48083aa6c, type: 3}
+  m_Sprite: {fileID: 21300002, guid: b85776b4950f841c39cb178e41fc9c32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1621,7 +1606,7 @@ Transform:
   m_GameObject: {fileID: 1715809941}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalScale: {x: 8, y: 8, z: 7}
   m_Children:
   - {fileID: 898348162}
   m_Father: {fileID: 0}
@@ -1643,7 +1628,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.17, y: 0.22}
+    oldSize: {x: 0.36, y: 0.36}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2562,7 +2547,7 @@ Transform:
   m_GameObject: {fileID: 1730701935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.6762161}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 898348162}
   m_RootOrder: 0

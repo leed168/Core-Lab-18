@@ -1761,7 +1761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfbff18b9417d41c1b913efaddf3ac7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 10
   moveCamera: 0
 --- !u!81 &1415561818
 AudioListener:
