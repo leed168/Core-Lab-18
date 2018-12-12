@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class sceneTrigger_universal : MonoBehaviour
 {
-    public string loadLevelName;
+    public string nextScene;
 
-    public int waitSeconds;
+    public float waitForSeconds;
 
     //void OnTriggerEnter2D(Collider2D col)
     //{
@@ -27,14 +27,14 @@ public class sceneTrigger_universal : MonoBehaviour
 
     public void fadeToLevel(int levelIndex)
     {
-        StartCoroutine(LoadAfterDelay(loadLevelName));
+        StartCoroutine(LoadAfterDelay(nextScene));
     }
 
 
     IEnumerator LoadAfterDelay(string levelName)
     {
         //option to wait seconds before moving scenes
-        yield return new WaitForSeconds(waitSeconds);
+        yield return new WaitForSeconds(waitForSeconds);
         SceneManager.LoadScene(levelName);
     }
 }

@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class playerMove_skirmish1_1 : MonoBehaviour
 {
+    public string nextScene;
+
     [SerializeField]
     private float speed;
 
@@ -62,7 +64,7 @@ public class playerMove_skirmish1_1 : MonoBehaviour
         }
         if (col.gameObject.tag == "lastProjectile")
         {
-            SceneManager.LoadScene("skirmish1_1cutscene");
+            SceneManager.LoadScene(nextScene);
         }
     }
 

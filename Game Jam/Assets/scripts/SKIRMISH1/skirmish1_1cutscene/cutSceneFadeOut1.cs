@@ -7,7 +7,7 @@ public class cutSceneFadeOut1 : MonoBehaviour
 {
     public Animator animator;
 
-    public string loadlevel;
+    public string nextScene;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -19,14 +19,14 @@ public class cutSceneFadeOut1 : MonoBehaviour
 
         public void fadeToLevel (int levelIndex)
     {
-        animator.SetTrigger("fadeOut");
-        //StartCoroutine(LoadAfterDelay("skirmish1_2"));
+        animator.SetTrigger("fadeOut_skirmish");
+        StartCoroutine(LoadAfterDelay(nextScene));
     }
 
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(levelName);
     }
 }

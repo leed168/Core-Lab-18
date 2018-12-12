@@ -7,7 +7,7 @@ public class fadeOut_introScene1 : MonoBehaviour
 {
     public Animator animator;
 
-    public string loadlevel;
+    public string nextScene;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -20,7 +20,7 @@ public class fadeOut_introScene1 : MonoBehaviour
     public void fadeToLevel(int levelIndex)
     {
         animator.SetTrigger("fadeOut");
-        StartCoroutine(LoadAfterDelay(loadlevel));
+        StartCoroutine(LoadAfterDelay(nextScene));
     }
 
 

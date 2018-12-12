@@ -2643,7 +2643,7 @@ Animator:
   m_GameObject: {fileID: 456367286}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b30c64ae5d37c4d68b9cade7d6e3a522, type: 2}
+  m_Controller: {fileID: 9100000, guid: 944ff4991a78e4e31b9b229688ed21da, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2664,8 +2664,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
---- !u!58 &456367291
-CircleCollider2D:
+--- !u!61 &456367291
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2677,8 +2677,18 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.18}
+    newSize: {x: 0.16, y: 0.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.09000001
+  m_Size: {x: 0.16, y: 0.18}
+  m_EdgeRadius: 0
 --- !u!1001 &505073408
 Prefab:
   m_ObjectHideFlags: 0
@@ -10350,6 +10360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e559c88043dd645c788167944e9620d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: skirmish1_1cutscene
   speed: 6
 --- !u!212 &1715809943
 SpriteRenderer:
@@ -10426,7 +10437,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.42, y: 0.42}
+    oldSize: {x: 0.36, y: 0.36}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11326,7 +11337,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.42, y: 0.42}
+    oldSize: {x: 0.36, y: 0.36}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
