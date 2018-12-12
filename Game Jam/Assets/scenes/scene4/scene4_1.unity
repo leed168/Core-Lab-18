@@ -160,7 +160,7 @@ MonoBehaviour:
   dialogue:
     name: Verd
     sentences:
-    - Well done.
+    - Well done, team.
 --- !u!50 &148138984
 Rigidbody2D:
   serializedVersion: 4

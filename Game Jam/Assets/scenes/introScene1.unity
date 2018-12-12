@@ -1521,7 +1521,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 700295478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -62.05, z: 0}
+  m_LocalPosition: {x: 0, y: -61.83, z: 0}
   m_LocalScale: {x: 12.447969, y: 0.125, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3237,7 +3237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.25
-  m_Text: The world was ending.
+  m_Text: The world was slowly ending.
 --- !u!222 &1984358900
 CanvasRenderer:
   m_ObjectHideFlags: 0
