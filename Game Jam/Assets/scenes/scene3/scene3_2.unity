@@ -917,7 +917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 543170525}
-  loadlevel: scene3_3
+  nextScene: scene3_3
 --- !u!95 &543170525
 Animator:
   serializedVersion: 3

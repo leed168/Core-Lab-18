@@ -907,6 +907,7 @@ MonoBehaviour:
   nameText: {fileID: 1528647858}
   dialogueText: {fileID: 2124770298}
   typeSpeed: 0.04
+  waitForSecondsEnd: 1
   loadLevelName: scene4_3
   animator: {fileID: 669683842}
 --- !u!95 &669683842
@@ -1059,7 +1060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.49803922}
+  m_Color: {r: 1, g: 0.9411765, b: 0.9411765, a: 0.49803922}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

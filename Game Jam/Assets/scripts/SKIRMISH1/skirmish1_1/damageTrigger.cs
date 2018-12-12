@@ -8,7 +8,7 @@ public class damageTrigger : MonoBehaviour
 {
     //public Animator animator;
 
-    public string loadlevel;
+    public string dieScene;
     
     public float health = 200;
 
@@ -87,7 +87,7 @@ public class damageTrigger : MonoBehaviour
         if (health <= 0)
             {
                 //fadeToLevel(1);
-                SceneManager.LoadScene("skirmish1_die");
+                SceneManager.LoadScene(dieScene);
             }
 
         healthBar.fillAmount = health / 200;

@@ -10,6 +10,8 @@ public class dialogueManager_scene3_6 : MonoBehaviour
     public Text dialogueText;
     public float typeSpeed;
 
+    public float waitForSecondsEnd;
+
     public string loadLevelName;
 
     public Animator animator;
@@ -87,7 +89,7 @@ public class dialogueManager_scene3_6 : MonoBehaviour
 
     IEnumerator LoadAfterDelay(string levelName)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(waitForSecondsEnd);
         SceneManager.LoadScene(levelName);
     }
 }

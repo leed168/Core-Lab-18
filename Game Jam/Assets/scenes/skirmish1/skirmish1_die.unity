@@ -553,7 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1040574534}
-  loadlevel: 
+  nextScene: skirmish1_start
 --- !u!114 &649472021
 MonoBehaviour:
   m_ObjectHideFlags: 0

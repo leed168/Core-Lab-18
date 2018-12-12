@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 477771741}
-  loadlevel: scene1
+  nextScene: scene1
 --- !u!95 &477771741
 Animator:
   serializedVersion: 3
@@ -3237,7 +3237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.25
-  m_Text: The world was dying.
+  m_Text: The world was ending.
 --- !u!222 &1984358900
 CanvasRenderer:
   m_ObjectHideFlags: 0

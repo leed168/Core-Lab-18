@@ -1070,6 +1070,7 @@ MonoBehaviour:
   nameText: {fileID: 1528647858}
   dialogueText: {fileID: 2124770298}
   typeSpeed: 0.04
+  waitForSecondsEnd: 0
   loadLevelName: scene4_3
   animator: {fileID: 669683842}
 --- !u!95 &669683842
@@ -2651,7 +2652,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_Sprite: {fileID: 21300000, guid: 23221088cc2834019b20dfaafd65c5d8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.49803922}
+  m_Color: {r: 1, g: 0.9411765, b: 0.9411765, a: 0.49803922}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

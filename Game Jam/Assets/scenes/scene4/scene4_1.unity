@@ -1070,6 +1070,7 @@ MonoBehaviour:
   nameText: {fileID: 1528647858}
   dialogueText: {fileID: 2124770298}
   typeSpeed: 0.04
+  waitForSecondsEnd: 1
   loadLevelName: scene4_2
   animator: {fileID: 669683842}
 --- !u!95 &669683842

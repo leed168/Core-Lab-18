@@ -5348,7 +5348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98e9308509f14970b26ca9d493489d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadlevel: skirmish1_die
+  dieScene: skirmish1_die
   health: 200
   healthBar: {fileID: 1572484147}
   hitmarker: {fileID: 923344648}

@@ -1052,6 +1052,7 @@ MonoBehaviour:
   nameText: {fileID: 1528647858}
   dialogueText: {fileID: 2124770298}
   typeSpeed: 0.04
+  waitForSecondsEnd: 1
   loadLevelName: scene3_7
   animator: {fileID: 669683842}
 --- !u!95 &669683842
@@ -2583,7 +2584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2071220054}
-  loadlevel: scene3_6
+  nextScene: 
 --- !u!95 &2071220054
 Animator:
   serializedVersion: 3

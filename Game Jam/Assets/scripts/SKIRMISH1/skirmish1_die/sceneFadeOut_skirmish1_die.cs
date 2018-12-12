@@ -7,7 +7,7 @@ public class sceneFadeOut_skirmish1_die : MonoBehaviour
 {
     public Animator animator;
 
-    public string loadlevel;
+    public string nextScene;
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -20,7 +20,7 @@ public class sceneFadeOut_skirmish1_die : MonoBehaviour
     public void fadeToLevel(int levelIndex)
     {
         animator.SetTrigger("fadeOut");
-        StartCoroutine(LoadAfterDelay("skirmish1_start"));
+        StartCoroutine(LoadAfterDelay(nextScene));
     }
 
 
