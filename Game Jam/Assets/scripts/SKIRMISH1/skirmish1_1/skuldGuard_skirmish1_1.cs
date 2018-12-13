@@ -64,7 +64,7 @@ public class skuldGuard_skirmish1_1 : MonoBehaviour
     {
         sr.color = new Color(255, 0, 0);
         //GetComponent<SpriteRenderer>().sprite = block;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
         sr.color = old;
         //GetComponent<SpriteRenderer>().sprite = normal;
     }

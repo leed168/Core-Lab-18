@@ -8,6 +8,8 @@ public class playerMove_skirmish1_1 : MonoBehaviour
 {
     public string nextScene;
 
+    public AudioSource fx;
+
     [SerializeField]
     private float speed;
 
@@ -60,7 +62,7 @@ public class playerMove_skirmish1_1 : MonoBehaviour
         {
             Destroy(col.gameObject);
             StartCoroutine(Pressed());
-            //fx0.Play();
+            fx.Play();
         }
         if (col.gameObject.tag == "lastProjectile")
         {
