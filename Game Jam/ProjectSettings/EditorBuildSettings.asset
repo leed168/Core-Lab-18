@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SCENES/introScene1.unity
+    guid: 9aa2bb49ccaf943ed8e5d93b1ac8587f
+  - enabled: 1
     path: Assets/SCENES/skirmish1/skirmish1_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENES/skirmish1/skirmish1_1cutscene.unity
     guid: fb3de608725e946c0b59cd3521248860
-  - enabled: 1
-    path: Assets/SCENES/introScene1.unity
-    guid: 9aa2bb49ccaf943ed8e5d93b1ac8587f
   - enabled: 1
     path: Assets/SCENES/scene1/scene1.unity
     guid: 7221a571cfb924aa4a13c8b168479a3b
@@ -183,19 +183,13 @@ EditorBuildSettings:
     path: Assets/SCENES/scene5/scene5.unity
     guid: a1749253ab1594181a8ef34ce8384f49
   - enabled: 1
-    path: Assets/SCENES/scene5/scene5_2.unity
+    path: Assets/SCENES/scene5/scene5_1.unity
     guid: 194093c94085047d195e3b3bfb2e1045
-  - enabled: 1
-    path: 
-    guid: c298c0c571f4447f695f544a7d5a4787
-  - enabled: 1
-    path: 
-    guid: 4fd9cedd85c984462ae4362c3d7fa794
   - enabled: 1
     path: Assets/SCENES/scene5/scene5_4.unity
     guid: 6aae95933325546149db12a3ff6de772
   - enabled: 1
-    path: Assets/SCENES/scene5/scene5_1.unity
+    path: Assets/SCENES/scene5/scene5_2.unity
     guid: 85f9a4073e92b4db8afff47b9defb343
   - enabled: 1
     path: Assets/SCENES/scene5/scene5_3.unity

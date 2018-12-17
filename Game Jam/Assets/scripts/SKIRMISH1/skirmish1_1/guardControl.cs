@@ -128,7 +128,7 @@ public class guardControl: MonoBehaviour
         }
         if (col.gameObject.tag == "lastProjectile")
         {
-            SceneManager.LoadScene("skirmish1_1cutscene");
+            SceneManager.LoadScene("nothing");
         }
     }
 
