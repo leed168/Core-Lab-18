@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Title.unity
+    guid: 245e413407796476798aafbf785ff32a
+  - enabled: 0
+    path: Assets/Scenes/BEFORE/Scene_1.unity
+    guid: 2f737c5a8306a4e7b96030b92a26d9b4
+  - enabled: 0
+    path: Assets/Scenes/BEFORE/Scene_2+3+4/Scene_3.unity
+    guid: aa986f942647c4201927de37e533a538
+  - enabled: 0
+    path: Assets/Scenes/BEFORE/Scene_2+3+4/Scene_2.unity
+    guid: bdd4559e0024545fda2e7483d1bc5469
+  - enabled: 0
+    path: Assets/Scenes/BEFORE/Scene_2+3+4/Scene_4.unity
+    guid: e1a4a65727dd04316ae32d36b6790c53
+  - enabled: 0
+    path: Assets/Scenes/BEFORE/Scene_5.unity
+    guid: 2aacc1396beb048bc9b2c4137486328d
+  - enabled: 0
+    path: Assets/Scenes/AFTER/AfterScene_1.unity
+    guid: f7e7d066e1c6a41ae88a2ebfbf027e7f
+  - enabled: 0
+    path: Assets/Scenes/AFTER/After_2+3+5/AfterScene_2.unity
+    guid: ef6119042badb43209d8059dbc2f2e8c
+  - enabled: 0
+    path: Assets/Scenes/AFTER/After_2+3+5/AfterScene_3.unity
+    guid: 2b40668587779468ea24acf7dc393c9c
+  - enabled: 0
+    path: Assets/Scenes/AFTER/After_2+3+5/AfterScene_4.unity
+    guid: e8e1de62ec8e24936bc864b890a7ac28
+  - enabled: 0
+    path: Assets/Scenes/AFTER/AfterScene_5.unity
+    guid: c3e90dcbc19f246e8b8f5fa439045258
+  - enabled: 1
+    path: Assets/Scenes/Demo.unity
+    guid: d7fb5ea9534964e7f9c1b3115eb6596c
+  m_configObjects: {}
